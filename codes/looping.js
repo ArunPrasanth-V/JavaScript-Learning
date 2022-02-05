@@ -19,3 +19,16 @@ for(let i=0;i<10;i++)
     }
     console.log();
 } 
+// For .. of
+let programming=['java','javascript','python','html & css'];
+
+for(let parse of programming)
+{
+    console.log(parse);
+}
+// for .. in 
+for(let parse in programming)
+{
+    //use in properties
+    console.log(parse);
+}
