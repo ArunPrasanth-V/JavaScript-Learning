@@ -1,0 +1,10 @@
+#boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+ background-color: aqua;
+ height: 200px;
+ width:200px;
+};
