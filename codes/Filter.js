@@ -71,5 +71,5 @@ const goodBooks=books.filter(b =>b.rating>4.3);
 const shortForm=books.filter(book=>(
     book.genres.includes('short stories')
     || book.genres.includes('essays')
-))
+));
 
