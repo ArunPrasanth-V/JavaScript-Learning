@@ -8,11 +8,9 @@ const student={
     passion:"Development",
     programming:['java','javaScript']
 };
-
 console.log(student.name,student.dept);
 
 // here all keys are automatically converted into string
-
 const number={
     num:"one hundred",
     "16":"sixteen"
@@ -28,5 +26,6 @@ const stu={
         final:88
     }
 };
+
 
 let avg =(stu.exams.final + stu.exams.midterm)/2;
