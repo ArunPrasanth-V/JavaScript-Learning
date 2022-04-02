@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+        <textarea id="myTextarea"
+            name="name"
+            rows="15"
+            cols="100"
+            placeholder="Your HTML Code here "></textarea>
+        <button type="button" onclick="myFunction()">convert</button>
+        <p id="demo"></p>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTextarea").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
