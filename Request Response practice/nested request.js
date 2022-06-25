@@ -47,10 +47,11 @@ const req=function(url){
 req('/usr').then((res)=>{
     let id=res[0].id;
     console.log(id);
-    req(`/usr/${id}`).then((res)=>{
-     console.log(res);
-    })
+    return req(`/usr/${id}`)
 })
+.then((res)=>{
+    console.log(res);
+   })
 .catch(()=>{
     console.log("Something went Wrong!!");
 });
