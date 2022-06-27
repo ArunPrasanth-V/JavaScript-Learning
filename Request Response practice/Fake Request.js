@@ -10,6 +10,11 @@ const db= function(url){
                 'java':"developer",
                 'could':"DEVOPS Engineer",
                 'salesForce':"wasting there time"
+            },
+             '/ext':{
+                'java':"developer",
+                'could':"DEVOPS Engineer",
+                'salesForce':"wasting there time"
             }
         }
         const record=page[url];
