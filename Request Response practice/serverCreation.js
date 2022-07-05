@@ -7,8 +7,8 @@ const server=http.createServer((req,res)=>{
         return res.end();
     }
     res.write("<h1>YOUR're in responce page ok");
-  //  setTimeout(()=>{
+
      return res.end();
-   // },5000)
+   
 });
 server.listen(3000);
