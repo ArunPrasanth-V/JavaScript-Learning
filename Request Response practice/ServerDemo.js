@@ -41,5 +41,4 @@ const server=http.createServer((req,res)=>{
         res.statusCode=404;
         return res.end();
 });
-
 server.listen(8080);
